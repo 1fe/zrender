@@ -1,6 +1,44 @@
-ZRender
-=======
-http://ecomfe.github.com/zrender
+# ZRender
+
+[![NPM version][npm-badge]][npm] [![Build Status][travis-ci-image]][travis-ci-url] [![Gitter][gitter-badge]][gitter]
+
+[![Dependency Status][deps-badge]][deps]
+[![devDependency Status][dev-deps-badge]][dev-deps]
+[![peerDependency Status][peer-deps-badge]][peer-deps]
+
+[npm-badge]: http://badge.fury.io/js/zrenderjs/zrenderjs.svg
+[npm]: http://badge.fury.io/js/zrenderjs
+
+[gitter-badge]: https://img.shields.io/badge/gitter-join%20chat-f81a65.svg?style=flat-square
+[gitter]: https://gitter.im/uooo/zrenderjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
+[deps-badge]: https://david-dm.org/uooo/zrenderjs.svg
+[deps]: https://david-dm.org/uooo/zrenderjs
+
+[dev-deps-badge]: https://david-dm.org/uooo/zrenderjs/dev-status.svg
+[dev-deps]: https://david-dm.org/uooo/zrenderjs#info=devDependencies
+
+[peer-deps-badge]: https://david-dm.org/uooo/zrenderjs/peer-status.svg
+[peer-deps]: https://david-dm.org/uooo/zrenderjs#info=peerDependencies 
+
+[travis-ci-image]: https://travis-ci.org/uooo/zrenderjs.svg
+[travis-ci-url]: https://travis-ci.org/uooo/zrenderjs
+
+## Installation
+
+Using npm:
+
+```sh
+$ npm i --save zrenderjs
+```
+
+in [webpack](https://github.com/webpack/webpack):
+
+```js
+import zrender from 'zrenderjs';
+```
+
+## Introduction
 
 一个轻量级的Canvas类库，MVC封装，数据驱动，提供类Dom事件模型，让canvas绘图大不同！
 
